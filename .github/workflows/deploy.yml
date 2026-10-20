@@ -26,10 +26,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: KOPIS 뮤지컬 수집
-        env:
-          KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
-        run: python3 scripts/fetch_kopis.py
+      - name: KBL 농구 일정 수집
+        run: python3 scripts/fetch_kbl.py
       - name: 변경 사항 커밋
         run: |
           if git diff --quiet -- data/; then

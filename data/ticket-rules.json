@@ -1,0 +1,8 @@
+{
+  "_설명": "구단별 예매 오픈 규칙. 경기 daysBefore일 전 time(KST)에 오픈. verified=false면 화면에 '예상'으로 표시. 규칙이 없으면 '예매처에서 확인'으로 표시.",
+  "_예시": { "daysBefore": 7, "time": "14:00", "verified": false, "sourceUrl": "근거 공지 링크" },
+  "kbl": {
+    "default": null,
+    "teams": {}
+  }
+}
