@@ -1,8 +1,21 @@
 {
-  "_설명": "구단별 예매 오픈 규칙. 경기 daysBefore일 전 time(KST)에 오픈. verified=false면 화면에 '예상'으로 표시. 규칙이 없으면 '예매처에서 확인'으로 표시.",
-  "_예시": { "daysBefore": 7, "time": "14:00", "verified": false, "sourceUrl": "근거 공지 링크" },
+  "_설명": "구단별 예매 오픈 규칙. 경기 daysBefore일 전 time(KST)에 일반 예매 오픈. presale은 멤버십 등 선예매. verified=false면 화면에 '예상'으로 표시. 규칙이 없으면 '예매처에서 확인'으로 표시. 시즌이 바뀌면 각 구단 공지를 다시 확인해 갱신할 것.",
+  "_예시": { "daysBefore": 5, "time": "14:00", "verified": true, "sourceUrl": "근거 공지 링크", "presale": { "label": "멤버십 선예매", "daysBefore": 6, "time": "14:00" } },
   "kbl": {
+    "season": "2026-2027",
+    "checkedAt": "2026-10-20",
     "default": null,
-    "teams": {}
+    "teams": {
+      "db": { "daysBefore": 5, "time": "12:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051167?teamCd=16" },
+      "ss": { "daysBefore": 5, "time": "11:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051056?teamCd=35", "presale": { "label": "멤버십 선예매", "daysBefore": 6, "time": "11:00" } },
+      "sono": { "daysBefore": 7, "time": "10:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051146?teamCd=66", "presale": { "label": "멤버십 선예매", "daysBefore": 8, "time": "10:00" } },
+      "sk": { "daysBefore": 5, "time": "11:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051292?teamCd=55" },
+      "lg": { "daysBefore": 5, "time": "15:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051495?teamCd=50", "presale": { "label": "선예매권", "daysBefore": 5, "time": "10:00" } },
+      "kgc": { "daysBefore": 5, "time": "15:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051218?teamCd=70", "presale": { "label": "멤버십(블랙) 선예매", "daysBefore": 7, "time": "15:00" } },
+      "kcc": { "daysBefore": 4, "time": "12:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051307?teamCd=60", "presale": { "label": "멤버십 선예매", "daysBefore": 5, "time": "12:00" } },
+      "kt": { "daysBefore": 5, "time": "15:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051288?teamCd=06" },
+      "pega": { "daysBefore": 5, "time": "13:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051197?teamCd=64" },
+      "hd": { "daysBefore": 5, "time": "14:00", "verified": true, "sourceUrl": "https://www.kbl.or.kr/board/notice/10051162?teamCd=10" }
+    }
   }
 }

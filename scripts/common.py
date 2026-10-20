@@ -43,15 +43,27 @@ def load_rules(league):
     return json.loads(RULES_PATH.read_text(encoding='utf-8')).get(league, {})
 
 
+def _at(game_at, days_before, hhmm):
+    hh, mm = map(int, hhmm.split(':'))
+    day = (game_at - timedelta(days=int(days_before))).date()
+    return datetime(day.year, day.month, day.day, hh, mm, tzinfo=KST).isoformat()
+
+
 def ticket_open(rules, team_key, game_at):
-    """규칙(경기 N일 전 HH:MM)이 있으면 예상 오픈 일시(ISO)와 검증 여부를 돌려준다."""
+    """규칙(경기 N일 전 HH:MM)으로 예매 오픈 정보를 계산한다.
+
+    반환: {'open': ISO|None, 'openEstimated': bool, 'openSource': URL|None, 'presale': {'label','at'}|None}
+    """
     rule = (rules.get('teams') or {}).get(team_key) or rules.get('default')
     if not rule or rule.get('daysBefore') is None or not rule.get('time'):
-        return None, False
-    hh, mm = map(int, rule['time'].split(':'))
-    day = (game_at - timedelta(days=int(rule['daysBefore']))).date()
-    opened = datetime(day.year, day.month, day.day, hh, mm, tzinfo=KST)
-    return opened.isoformat(), bool(rule.get('verified'))
+        return {'open': None, 'openEstimated': False, 'openSource': None, 'presale': None}
+    pre = rule.get('presale')
+    return {
+        'open': _at(game_at, rule['daysBefore'], rule['time']),
+        'openEstimated': not rule.get('verified'),
+        'openSource': rule.get('sourceUrl'),
+        'presale': {'label': pre.get('label', '선예매'), 'at': _at(game_at, pre['daysBefore'], pre['time'])} if pre else None,
+    }
 
 
 def merge_and_save(source, category, new_events, output=DATA_PATH):

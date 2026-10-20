@@ -47,7 +47,7 @@ def build_event(g, rules, index):
     home, away = g.get('logoH', ''), g.get('logoA', '')
     home_short, area = TEAMS.get(home, (g.get('tnameH', ''), ''))
     away_short = TEAMS.get(away, (g.get('tnameA', ''), ''))[0]
-    open_at, verified = ticket_open(rules, home, game_at)
+    ticket = ticket_open(rules, home, game_at)
     season = f"{g.get('seasonName1', '')} {g.get('seasonCategoryName', '')}".strip()
     return {
         'id': f"kbl-{g['gmkey']}",
@@ -60,9 +60,8 @@ def build_event(g, rules, index):
         'area': area,
         'provider': 'KBL 티켓',
         'url': TICKET_URL,
-        'links': [{'name': 'KBL 티켓 예매', 'url': TICKET_URL}, {'name': 'KBL 경기 일정', 'url': SCHEDULE_URL}],
-        'open': open_at,
-        'openEstimated': bool(open_at) and not verified,
+        'links': [{'name': 'KBL 티켓 예매하기', 'url': TICKET_URL}, {'name': 'KBL 공식 경기 일정', 'url': SCHEDULE_URL}],
+        **ticket,
         'event': game_at.isoformat(),
         'home': {'name': home_short, 'logo': LOGO_URL.format(home)},
         'away': {'name': away_short, 'logo': LOGO_URL.format(away) if away in TEAMS else ''},
