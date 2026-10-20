@@ -25,6 +25,7 @@ DAYS_AHEAD = 45
 CATEGORIES = {'R', 'P', 'PO', 'C'}  # 정규시즌·플레이오프·챔피언결정전 (D리그·EASL 제외)
 SCHEDULE_URL = 'https://www.kbl.or.kr/match/schedule'
 TICKET_URL = 'https://www.kbl.or.kr/ticket/regular'
+LOGO_URL = 'https://www.kbl.or.kr/assets/img/ico/logo/ic-{}.svg'
 # 로고 키 → (짧은 이름, 연고 지역)
 TEAMS = {
     'db': ('DB', '강원'), 'ss': ('삼성', '서울'), 'sono': ('소노', '경기'), 'sk': ('SK', '서울'),
@@ -63,6 +64,8 @@ def build_event(g, rules, index):
         'open': open_at,
         'openEstimated': bool(open_at) and not verified,
         'event': game_at.isoformat(),
+        'home': {'name': home_short, 'logo': LOGO_URL.format(home)},
+        'away': {'name': away_short, 'logo': LOGO_URL.format(away) if away in TEAMS else ''},
         'art': ART_CLASSES[index % len(ART_CLASSES)],
         'artTitle': f'{home_short}\nVS {away_short}',
         'kicker': f"KBL · {season}".upper(),
