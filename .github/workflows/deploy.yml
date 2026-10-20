@@ -1,0 +1,61 @@
+name: 데이터 갱신 및 배포
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 매일 06:00, 12:00, 18:00 (KST) 수집
+    - cron: '0 21,3,9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: KOPIS 뮤지컬 수집
+        env:
+          KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
+        run: python3 scripts/fetch_kopis.py
+      - name: 변경 사항 커밋
+        run: |
+          if git diff --quiet -- data/; then
+            echo "데이터 변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "데이터 자동 갱신: $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') KST"
+          git push
+
+  deploy:
+    needs: update-data
+    if: ${{ !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs><db><mt20id>PF000001</mt20id><prfnm>테스트 뮤지컬 A</prfnm><prfcast>배우1, 배우2</prfcast>
+<relates><relate><relatenm>NOL티켓</relatenm><relateurl>http://nol.yanolja.com/ticket/goods/1</relateurl></relate><relate><relatenm>예스24</relatenm><relateurl>https://ticket.yes24.com/Perf/1</relateurl></relate></relates></db></dbs>

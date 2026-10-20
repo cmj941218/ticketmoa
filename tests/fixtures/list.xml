@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dbs>
+  <db><mt20id>PF000001</mt20id><prfnm>테스트 뮤지컬 A</prfnm><prfpdfrom>2026.10.24</prfpdfrom><prfpdto>2026.12.31</prfpdto><fcltynm>테스트 아트센터 (대극장)</fcltynm><poster>http://www.kopis.or.kr/upload/pfmPoster/PF_PF000001.jpg</poster><area>서울특별시</area><genrenm>뮤지컬</genrenm><openrun>N</openrun><prfstate>공연예정</prfstate></db>
+  <db><mt20id>PF000002</mt20id><prfnm>테스트 뮤지컬 &lt;B&gt;</prfnm><prfpdfrom>2026.10.22</prfpdfrom><prfpdto>2026.11.02</prfpdto><fcltynm>부산 테스트홀</fcltynm><poster></poster><area>부산광역시</area><genrenm>뮤지컬</genrenm><openrun>N</openrun><prfstate>공연예정</prfstate></db>
+</dbs>
