@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-11-02T09:11:30+09:00",
+    "updatedAt": "2026-11-02T19:28:45+09:00",
     "source": "manual",
     "note": "가상 예시 데이터입니다. open/event는 반드시 +09:00(KST) 오프셋을 포함한 ISO 8601 형식으로 작성합니다.",
     "sources": {
       "kbl": {
-        "updatedAt": "2026-11-02T09:11:30+09:00",
-        "count": 52
+        "updatedAt": "2026-11-02T19:28:45+09:00",
+        "count": 51
       }
     }
   },
@@ -74,46 +74,6 @@
       "kicker": "A SLOW AFTERNOON · SPECIAL TALK",
       "source": "sample",
       "isSample": true
-    },
-    {
-      "id": "kbl-S49G01N51",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "대구 한국가스공사 vs 안양 정관장",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 tvN SPORTS",
-      "venue": "대구체육관",
-      "area": "대구",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-10-28T13:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051197?teamCd=64",
-      "presale": null,
-      "event": "2026-11-02T19:00:00+09:00",
-      "home": {
-        "name": "한국가스공사",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
-      },
-      "away": {
-        "name": "정관장",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
-      },
-      "art": "poster-one",
-      "artTitle": "한국가스공사\nVS 정관장",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
     },
     {
       "id": "kbl-S49G01N52",
