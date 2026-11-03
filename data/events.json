@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-11-03T11:44:44+09:00",
+    "updatedAt": "2026-11-03T19:25:29+09:00",
     "source": "manual",
     "note": "가상 예시 데이터입니다. open/event는 반드시 +09:00(KST) 오프셋을 포함한 ISO 8601 형식으로 작성합니다.",
     "sources": {
       "kbl": {
-        "updatedAt": "2026-11-03T11:44:44+09:00",
-        "count": 52
+        "updatedAt": "2026-11-03T19:25:29+09:00",
+        "count": 51
       }
     }
   },
@@ -74,49 +74,6 @@
       "kicker": "A SLOW AFTERNOON · SPECIAL TALK",
       "source": "sample",
       "isSample": true
-    },
-    {
-      "id": "kbl-S49G01N52",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "부산 KCC vs 고양 소노",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 tvN SPORTS",
-      "venue": "부산사직체육관",
-      "area": "부산",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-10-30T12:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051307?teamCd=60",
-      "presale": {
-        "label": "멤버십 선예매",
-        "at": "2026-10-29T12:00:00+09:00"
-      },
-      "event": "2026-11-03T19:00:00+09:00",
-      "home": {
-        "name": "KCC",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
-      },
-      "away": {
-        "name": "소노",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
-      },
-      "art": "poster-one",
-      "artTitle": "KCC\nVS 소노",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
     },
     {
       "id": "kbl-S49G01N53",
