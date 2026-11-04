@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-11-04T10:00:34+09:00",
+    "updatedAt": "2026-11-04T19:22:47+09:00",
     "source": "manual",
     "note": "가상 예시 데이터입니다. open/event는 반드시 +09:00(KST) 오프셋을 포함한 ISO 8601 형식으로 작성합니다.",
     "sources": {
       "kbl": {
-        "updatedAt": "2026-11-04T10:00:34+09:00",
-        "count": 54
+        "updatedAt": "2026-11-04T19:22:47+09:00",
+        "count": 53
       }
     }
   },
@@ -74,46 +74,6 @@
       "kicker": "A SLOW AFTERNOON · SPECIAL TALK",
       "source": "sample",
       "isSample": true
-    },
-    {
-      "id": "kbl-S49G01N53",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "서울 SK vs 대구 한국가스공사",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 tvN SPORTS",
-      "venue": "잠실학생체육관",
-      "area": "서울",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-10-30T11:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051292?teamCd=55",
-      "presale": null,
-      "event": "2026-11-04T19:00:00+09:00",
-      "home": {
-        "name": "SK",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
-      },
-      "away": {
-        "name": "한국가스공사",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
-      },
-      "art": "poster-one",
-      "artTitle": "SK\nVS 한국가스공사",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
     },
     {
       "id": "kbl-S49G01N54",
