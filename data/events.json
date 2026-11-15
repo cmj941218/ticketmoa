@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-11-15T09:41:47+09:00",
+    "updatedAt": "2026-11-15T19:20:33+09:00",
     "source": "manual",
     "note": "가상 예시 데이터입니다. open/event는 반드시 +09:00(KST) 오프셋을 포함한 ISO 8601 형식으로 작성합니다.",
     "sources": {
       "kbl": {
-        "updatedAt": "2026-11-15T09:41:47+09:00",
-        "count": 56
+        "updatedAt": "2026-11-15T19:20:33+09:00",
+        "count": 53
       }
     }
   },
@@ -76,135 +76,6 @@
       "isSample": true
     },
     {
-      "id": "kbl-S49G01N70",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "고양 소노 vs 원주 DB",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 tvN SPORTS",
-      "venue": "고양소노아레나",
-      "area": "경기",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-11-08T10:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051146?teamCd=66",
-      "presale": {
-        "label": "멤버십 선예매",
-        "at": "2026-11-07T10:00:00+09:00"
-      },
-      "event": "2026-11-15T14:00:00+09:00",
-      "home": {
-        "name": "소노",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
-      },
-      "away": {
-        "name": "DB",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
-      },
-      "art": "poster-one",
-      "artTitle": "소노\nVS DB",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
-    },
-    {
-      "id": "kbl-S49G01N71",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "창원 LG vs 수원 KT",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 IB SPORTS",
-      "venue": "창원체육관",
-      "area": "경남",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-11-10T15:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051495?teamCd=50",
-      "presale": {
-        "label": "선예매권",
-        "at": "2026-11-10T10:00:00+09:00"
-      },
-      "event": "2026-11-15T16:30:00+09:00",
-      "home": {
-        "name": "LG",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-lg.svg"
-      },
-      "away": {
-        "name": "KT",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
-      },
-      "art": "poster-two",
-      "artTitle": "LG\nVS KT",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
-    },
-    {
-      "id": "kbl-S49G01N72",
-      "category": "sport",
-      "sport": "basketball",
-      "league": "KBL",
-      "title": "부산 KCC vs 대구 한국가스공사",
-      "subtitle": "KBL 2026-2027 정규시즌 · 중계 tvN SPORTS",
-      "venue": "부산사직체육관",
-      "area": "부산",
-      "provider": "KBL 티켓",
-      "url": "https://www.kbl.or.kr/ticket/regular",
-      "links": [
-        {
-          "name": "KBL 티켓 예매하기",
-          "url": "https://www.kbl.or.kr/ticket/regular"
-        },
-        {
-          "name": "KBL 공식 경기 일정",
-          "url": "https://www.kbl.or.kr/match/schedule"
-        }
-      ],
-      "open": "2026-11-11T12:00:00+09:00",
-      "openEstimated": false,
-      "openSource": "https://www.kbl.or.kr/board/notice/10051307?teamCd=60",
-      "presale": {
-        "label": "멤버십 선예매",
-        "at": "2026-11-10T12:00:00+09:00"
-      },
-      "event": "2026-11-15T16:30:00+09:00",
-      "home": {
-        "name": "KCC",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
-      },
-      "away": {
-        "name": "한국가스공사",
-        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
-      },
-      "art": "poster-three",
-      "artTitle": "KCC\nVS 한국가스공사",
-      "kicker": "KBL · 2026-2027 정규시즌",
-      "source": "kbl",
-      "isSample": false
-    },
-    {
       "id": "kbl-S49G01N73",
       "category": "sport",
       "sport": "basketball",
@@ -238,7 +109,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "SK\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -278,7 +149,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "DB\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -321,7 +192,7 @@
         "name": "LG",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-lg.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "삼성\nVS LG",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -364,7 +235,7 @@
         "name": "KCC",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "정관장\nVS KCC",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -404,7 +275,7 @@
         "name": "SK",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "KT\nVS SK",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -447,7 +318,7 @@
         "name": "SK",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "소노\nVS SK",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -490,7 +361,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "LG\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -533,7 +404,7 @@
         "name": "삼성",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "KCC\nVS 삼성",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -573,7 +444,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "KT\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -616,7 +487,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "소노\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -659,7 +530,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "LG\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -699,7 +570,7 @@
         "name": "SK",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "DB\nVS SK",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -739,7 +610,7 @@
         "name": "KCC",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "KT\nVS KCC",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -779,7 +650,7 @@
         "name": "삼성",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "한국가스공사\nVS 삼성",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -819,7 +690,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "DB\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -862,7 +733,7 @@
         "name": "SK",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "LG\nVS SK",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -905,7 +776,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "정관장\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -948,7 +819,7 @@
         "name": "KCC",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "삼성\nVS KCC",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -988,7 +859,7 @@
         "name": "DB",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "한국가스공사\nVS DB",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1028,7 +899,7 @@
         "name": "KCC",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "SK\nVS KCC",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1071,7 +942,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "LG\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1114,7 +985,7 @@
         "name": "소노",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "정관장\nVS 소노",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1157,7 +1028,7 @@
         "name": "DB",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "삼성\nVS DB",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1197,7 +1068,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "SK\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1237,7 +1108,7 @@
         "name": "KT",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "현대모비스\nVS KT",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1280,7 +1151,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "KCC\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1323,7 +1194,7 @@
         "name": "삼성",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "LG\nVS 삼성",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1363,7 +1234,7 @@
         "name": "KT",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "SK\nVS KT",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1406,7 +1277,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "KCC\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1446,7 +1317,7 @@
         "name": "DB",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "현대모비스\nVS DB",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1489,7 +1360,7 @@
         "name": "소노",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "삼성\nVS 소노",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1532,7 +1403,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "KCC\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1572,7 +1443,7 @@
         "name": "DB",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "SK\nVS DB",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1612,7 +1483,7 @@
         "name": "LG",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-lg.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "KT\nVS LG",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1655,7 +1526,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "정관장\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1698,7 +1569,7 @@
         "name": "SK",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "소노\nVS SK",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1741,7 +1612,7 @@
         "name": "KT",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "삼성\nVS KT",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1784,7 +1655,7 @@
         "name": "LG",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-lg.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "KCC\nVS LG",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1827,7 +1698,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "삼성\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1870,7 +1741,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "소노\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1913,7 +1784,7 @@
         "name": "DB",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-db.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "KCC\nVS DB",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1953,7 +1824,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "KT\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -1996,7 +1867,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "소노\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2039,7 +1910,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "LG\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2079,7 +1950,7 @@
         "name": "삼성",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "SK\nVS 삼성",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2119,7 +1990,7 @@
         "name": "정관장",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kgc.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "DB\nVS 정관장",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2159,7 +2030,7 @@
         "name": "KCC",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kcc.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "KT\nVS KCC",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2199,7 +2070,7 @@
         "name": "현대모비스",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
       },
-      "art": "poster-three",
+      "art": "poster-six",
       "artTitle": "SK\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2239,7 +2110,7 @@
         "name": "삼성",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
       },
-      "art": "poster-four",
+      "art": "poster-one",
       "artTitle": "한국가스공사\nVS 삼성",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2282,7 +2153,7 @@
         "name": "소노",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
       },
-      "art": "poster-five",
+      "art": "poster-two",
       "artTitle": "LG\nVS 소노",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2322,7 +2193,7 @@
         "name": "KT",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
       },
-      "art": "poster-six",
+      "art": "poster-three",
       "artTitle": "DB\nVS KT",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2365,7 +2236,7 @@
         "name": "LG",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-lg.svg"
       },
-      "art": "poster-one",
+      "art": "poster-four",
       "artTitle": "정관장\nVS LG",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
@@ -2405,7 +2276,7 @@
         "name": "한국가스공사",
         "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
       },
-      "art": "poster-two",
+      "art": "poster-five",
       "artTitle": "현대모비스\nVS 한국가스공사",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
