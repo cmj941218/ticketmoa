@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updatedAt": "2026-11-24T14:07:38+09:00",
+    "updatedAt": "2026-11-25T04:54:28+09:00",
     "source": "manual",
     "note": "가상 예시 데이터입니다. open/event는 반드시 +09:00(KST) 오프셋을 포함한 ISO 8601 형식으로 작성합니다.",
     "sources": {
       "kbl": {
-        "updatedAt": "2026-11-24T14:07:38+09:00",
-        "count": 62
+        "updatedAt": "2026-11-25T04:54:28+09:00",
+        "count": 65
       }
     }
   },
@@ -2650,6 +2650,129 @@
       },
       "art": "poster-two",
       "artTitle": "KCC\nVS LG",
+      "kicker": "KBL · 2026-2027 정규시즌",
+      "source": "kbl",
+      "isSample": false
+    },
+    {
+      "id": "kbl-S49G01N140",
+      "category": "sport",
+      "sport": "basketball",
+      "league": "KBL",
+      "title": "수원 KT vs 서울 SK",
+      "subtitle": "KBL 2026-2027 정규시즌",
+      "venue": "수원 KT 소닉붐 아레나",
+      "area": "경기",
+      "provider": "KBL 티켓",
+      "url": "https://www.kbl.or.kr/ticket/regular",
+      "links": [
+        {
+          "name": "KBL 티켓 예매하기",
+          "url": "https://www.kbl.or.kr/ticket/regular"
+        },
+        {
+          "name": "KBL 공식 경기 일정",
+          "url": "https://www.kbl.or.kr/match/schedule"
+        }
+      ],
+      "open": "2027-01-04T15:00:00+09:00",
+      "openEstimated": false,
+      "openSource": "https://www.kbl.or.kr/board/notice/10051288?teamCd=06",
+      "presale": null,
+      "event": "2027-01-09T14:00:00+09:00",
+      "home": {
+        "name": "KT",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-kt.svg"
+      },
+      "away": {
+        "name": "SK",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sk.svg"
+      },
+      "art": "poster-three",
+      "artTitle": "KT\nVS SK",
+      "kicker": "KBL · 2026-2027 정규시즌",
+      "source": "kbl",
+      "isSample": false
+    },
+    {
+      "id": "kbl-S49G01N141",
+      "category": "sport",
+      "sport": "basketball",
+      "league": "KBL",
+      "title": "대구 한국가스공사 vs 고양 소노",
+      "subtitle": "KBL 2026-2027 정규시즌",
+      "venue": "대구체육관",
+      "area": "대구",
+      "provider": "KBL 티켓",
+      "url": "https://www.kbl.or.kr/ticket/regular",
+      "links": [
+        {
+          "name": "KBL 티켓 예매하기",
+          "url": "https://www.kbl.or.kr/ticket/regular"
+        },
+        {
+          "name": "KBL 공식 경기 일정",
+          "url": "https://www.kbl.or.kr/match/schedule"
+        }
+      ],
+      "open": "2027-01-04T13:00:00+09:00",
+      "openEstimated": false,
+      "openSource": "https://www.kbl.or.kr/board/notice/10051197?teamCd=64",
+      "presale": null,
+      "event": "2027-01-09T14:00:00+09:00",
+      "home": {
+        "name": "한국가스공사",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-pega.svg"
+      },
+      "away": {
+        "name": "소노",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-sono.svg"
+      },
+      "art": "poster-four",
+      "artTitle": "한국가스공사\nVS 소노",
+      "kicker": "KBL · 2026-2027 정규시즌",
+      "source": "kbl",
+      "isSample": false
+    },
+    {
+      "id": "kbl-S49G01N142",
+      "category": "sport",
+      "sport": "basketball",
+      "league": "KBL",
+      "title": "서울 삼성 vs 울산 현대모비스",
+      "subtitle": "KBL 2026-2027 정규시즌",
+      "venue": "잠실학생체육관",
+      "area": "서울",
+      "provider": "KBL 티켓",
+      "url": "https://www.kbl.or.kr/ticket/regular",
+      "links": [
+        {
+          "name": "KBL 티켓 예매하기",
+          "url": "https://www.kbl.or.kr/ticket/regular"
+        },
+        {
+          "name": "KBL 공식 경기 일정",
+          "url": "https://www.kbl.or.kr/match/schedule"
+        }
+      ],
+      "open": "2027-01-04T11:00:00+09:00",
+      "openEstimated": false,
+      "openSource": "https://www.kbl.or.kr/board/notice/10051056?teamCd=35",
+      "presale": {
+        "label": "멤버십 선예매",
+        "at": "2027-01-03T11:00:00+09:00"
+      },
+      "event": "2027-01-09T16:30:00+09:00",
+      "home": {
+        "name": "삼성",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-ss.svg"
+      },
+      "away": {
+        "name": "현대모비스",
+        "logo": "https://www.kbl.or.kr/assets/img/ico/logo/ic-hd.svg"
+      },
+      "art": "poster-five",
+      "artTitle": "삼성\nVS 현대모비스",
       "kicker": "KBL · 2026-2027 정규시즌",
       "source": "kbl",
       "isSample": false
